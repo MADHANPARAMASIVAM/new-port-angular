@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GalleriaModule } from 'primeng/galleria';
+
 import { GalleriaBasicDemo } from './header/galleria-basic-demo';
 import { DisplayCustomersComponent } from './home/components/display-customers/display-customers.component';
 
@@ -18,7 +18,7 @@ import { DisplayCustomersComponent } from './home/components/display-customers/d
   ],
   imports: [
     BrowserModule,
-    GalleriaModule,
+
     HttpClientModule,
     BrowserAnimationsModule,
     AppRoutingModule
